@@ -37,6 +37,7 @@ This will create sentiment_model.pkl file.
 }
 
 📁 Project Structure
+
     sentiment-api
    main.py                # FastAPI application
    log_model.py           # Script to train and save model

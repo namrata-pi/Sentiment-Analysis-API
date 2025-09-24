@@ -22,9 +22,56 @@ This will create sentiment_model.pkl file.
    Open your browser and go to:
    API Documentation: http://localhost:8000/docs
    API Usage 
-   curl -X POST "http://localhost:8000/predict" \
-     -H "Content-Type: application/json" \
-     -d '{"text": "Looking forward to the demo!"}'
+       curl -X POST "http://localhost:8000/predict" \
+            -H "Content-Type: application/json" \
+            -d '{"text": "This is amazing let's proceed"}'
+   Response:
+      {
+  "label": "positive",
+  "confidence": 0.886,
+  "probabilities": {
+    "negative": 0.05,
+    "neutral": 0.08,
+    "positive": 0.886
+  }
+}
+
+📁 Project Structure
+    sentiment-api/
+├── main.py                # FastAPI application
+├── log_model.py           # Script to train and save model
+├── test_api.py            # Test script
+├── requirements.txt       # Python dependencies
+├── README.md              # This file
+├── preprocessed.xlsx      # Training dataset
+└── sentiment_model.pkl    # Trained model (generated)
+
+
+Model Parameters
+The model uses:
+
+Algorithm: Logistic Regression
+Vectorization: TF-IDF with 1000 features
+N-grams: Unigrams and bigrams (1,2)
+Classes: negative (-1), neutral (0), positive (1)
+
+
+🧪 Testing
+   python test_api.py
+
+   Manual Testing
+
+   1.Start the API server
+   2.Go to http://localhost:8000/docs
+   3.Try the /predict endpoint with different texts:
+       "This is amazing!" (should predict positive)
+        "Not interested" (should predict negative)
+
+
+
+      
+
+       
 
   
 

@@ -56,13 +56,13 @@ python main.py
 ```
 
 Model Parameters
-The model uses:
-
-*Algorithm: Logistic Regression
-*Vectorization: TF-IDF with 1000 features
-*N-grams: Unigrams and bigrams (1,2)
-*Classes: negative (-1), neutral (0), positive (1)
-
+-The model uses:
+```bash
+   -Algorithm: Logistic Regression
+   -Vectorization: TF-IDF with 1000 features
+   -N-grams: Unigrams and bigrams (1,2)
+   -Classes: negative (-1), neutral (0), positive (1)
+```
 
 Testing
   ``` bash

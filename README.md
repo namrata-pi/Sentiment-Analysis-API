@@ -43,7 +43,7 @@ python main.py
 }
 ```
 
-📁 Project Structure
+ Project Structure
 ```bash
    sentiment-api
    main.py                # FastAPI application
@@ -58,13 +58,13 @@ python main.py
 Model Parameters
 The model uses:
 
-Algorithm: Logistic Regression
-Vectorization: TF-IDF with 1000 features
-N-grams: Unigrams and bigrams (1,2)
-Classes: negative (-1), neutral (0), positive (1)
+*Algorithm: Logistic Regression
+*Vectorization: TF-IDF with 1000 features
+*N-grams: Unigrams and bigrams (1,2)
+*Classes: negative (-1), neutral (0), positive (1)
 
 
-🧪 Testing
+Testing
   ``` bash
 python test_api.py
 ```

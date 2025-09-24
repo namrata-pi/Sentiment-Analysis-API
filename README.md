@@ -36,15 +36,15 @@ This will create sentiment_model.pkl file.
   }
 }
 
-📁 Project Structure/
-    sentiment-api/
-├── main.py                # FastAPI application
-├── log_model.py           # Script to train and save model
-├── test_api.py            # Test script
-├── requirements.txt       # Python dependencies
-├── README.md              # This file
-├── preprocessed.xlsx      # Training dataset
-└── sentiment_model.pkl    # Trained model (generated)
+📁 Project Structure
+    sentiment-api
+   main.py                # FastAPI application
+   log_model.py           # Script to train and save model
+   test_api.py            # Test script
+   requirements.txt       # Python dependencies
+   README.md              # This file
+   preprocessed.xlsx      # Training dataset
+   sentiment_model.pkl    # Trained model (generated)
 
 
 Model Parameters

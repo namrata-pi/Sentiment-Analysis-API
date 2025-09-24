@@ -2,10 +2,15 @@
 A FastAPI-based REST API that predicts sentiment (positive, neutral, negative) from text using a trained Logistic Regression model.
 
 
+### 1️⃣ Clone the Project
+```bash
+git clone https://github.com/your-username/sentiment-analysis-api.git
+cd sentiment-analysis-api
+
 1. Clone/Download the Project
 2. Install Dependencies
    pip install -r requirements.txt
-3. Prepare Your Model
+5. Prepare Your Model
     Make sure you have these files in your project directory:
 
    preprocessed.xlsx -  training dataset

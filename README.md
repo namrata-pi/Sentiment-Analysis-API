@@ -9,9 +9,9 @@ A FastAPI-based REST API that predicts sentiment (positive, neutral, negative) f
 5. Prepare Your Model
     Make sure you have these files in your project directory:
 
-   preprocessed.xlsx -  training dataset
-   main.py - The FastAPI application
-   requirements.txt - Dependencies
+  * preprocessed.xlsx -  training dataset
+  * main.py - The FastAPI application
+  *  requirements.txt - Dependencies
 4.Train and Save the Model
      ```bash
      python log_model.py

@@ -22,6 +22,9 @@ This will create sentiment_model.pkl file.
    Open your browser and go to:
    API Documentation: http://localhost:8000/docs
    API Usage 
+   curl -X POST "http://localhost:8000/predict" \
+     -H "Content-Type: application/json" \
+     -d '{"text": "Looking forward to the demo!"}'
 
   
 

@@ -17,7 +17,7 @@ This will create sentiment_model.pkl file.
 
 5.Start the API server
   python main.py
-
+ 
 6.Test the API
    Open your browser and go to:
    API Documentation: http://localhost:8000/docs
@@ -36,7 +36,7 @@ This will create sentiment_model.pkl file.
   }
 }
 
-📁 Project Structure
+📁 Project Structure/
     sentiment-api/
 ├── main.py                # FastAPI application
 ├── log_model.py           # Script to train and save model

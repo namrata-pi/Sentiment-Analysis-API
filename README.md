@@ -17,7 +17,7 @@ A FastAPI-based REST API that predicts sentiment (positive, neutral, negative) f
      python log_model.py
 This will create sentiment_model.pkl file.
 
-5.Start the API server
+5.Start the API server in first terminal
   ```bash
 python main.py
 ```
@@ -68,6 +68,7 @@ Testing
   ``` bash
 python test_api.py
 ```
+While the main.py is running, run this command in the second terminal for testing the model by giving custom input texts
 
    Manual Testing
 ```bash
